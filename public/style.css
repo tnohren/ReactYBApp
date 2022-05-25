@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: freight;
+    src: url(https://cdn.glitch.com/f84da1ef-a648-4233-af6d-f359389b0bf8%2FFreight%20Text%20Book.otf?v=1619565910917);
+}
+
+@font-face {
+    font-family: freight;
+    src: url(https://cdn.glitch.com/f84da1ef-a648-4233-af6d-f359389b0bf8%2FFreight%20Text%20Bold.otf?v=1619565908128);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: freight;
+    src: url(https://cdn.glitch.com/f84da1ef-a648-4233-af6d-f359389b0bf8%2FFreight%20Text%20Black.otf?v=1619565905694);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(https://cdn.glitch.com/f84da1ef-a648-4233-af6d-f359389b0bf8%2FProximaNova-Regular.otf?v=1619565926966);
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(https://cdn.glitch.com/f84da1ef-a648-4233-af6d-f359389b0bf8%2FProxima%20Nova%20Bold.otf?v=1619565919402);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(https://cdn.glitch.com/f84da1ef-a648-4233-af6d-f359389b0bf8%2FProxima%20Nova%20Extrabold.otf?v=1619565921972);
+    font-weight: 800;
+}
+
+header {
+    background: #022851;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#classHead {
+    font-family: proximaNova;
+    font-weight: 800;
+    color: #ffbf00;
+    font-size: 24px;
+}
+
+.logoContainer {
+    height: 22px;
+    width: 122px;
+}
+
+    .logoContainer img {
+        height: 100%;
+        width: auto;
+    }
+
+.picContainer {
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .picContainer img {
+        width: 100%;
+        height: auto;
+    }
+
+.button {
+    background-image: linear-gradient(180deg, rgba(255,216,95,1) 0%, rgba(255,191,0,1) 100%);
+    padding: 5px;
+    font-family: proximaNova;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#search {
+    top: 360px;
+    right: 20px;
+}
+
+#login {
+    top: 400px;
+    right: 20px;
+}
+
+#gradList {
+    background: #022851;
+    height: 60vh;
+}
+
+#congrats {
+    font-family: proximaNova;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#gradList div {
+    font-family: freight;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+#searchForm {
+    height: 400px;
+    width: 100vw;
+    background: rgba(255,255,255,0.75);
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    font-family: proximaNova;
+    font-weight: bold;
+}
+
+#searchCentered {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+#searchTitle {
+    padding-top: 2vh;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+}
+
+#searchDescription {
+    padding-top: 1vh;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #022851;
+    margin: auto;
+    text-align: center;
+}
+
+#searchQuestions {
+    font-size: 20px;
+    margin: auto;
+}
+
+.sameLine {
+    display: inline;
+}
+
+.searchBox {
+    padding-top: 1vh;
+    display: block;
+}
+
+#submitButton {
+    background-image: linear-gradient(180deg, rgba(255,216,95,1) 0%, rgba(255,191,0,1) 100%);
+    border: none;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: proximaNova;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#questionnaireForm {
+    padding-top: 5vh;
+    width: 30%;
+    height: 400px;
+    background: rgba(255,255,255,0.75);
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    font-family: proximaNova;
+    font-weight: bold;
+    margin: auto;
+}
+
+#questionnaireTitle {
+    padding-top: 5vh;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+}
+
+#questionnaireBoxes {
+    padding-top: 3vh;
+    font-size: 20px;
+    width: 20%;
+    margin: auto;
+}
+
+.inputCentered {
+    text-align: center;
+}
